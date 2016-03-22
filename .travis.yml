@@ -39,7 +39,7 @@ before_cache:
   - find $HOME/.ivy2 -name 'ivydata-*.properties' | xargs rm
 
 jdk:
-  - oraclejdk7
+  - oraclejdk8
 
 env:
   matrix:
