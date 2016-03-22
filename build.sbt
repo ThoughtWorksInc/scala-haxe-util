@@ -18,7 +18,7 @@ name := "scala-haxe-util"
 
 haxelibReleaseNote := "Initial commit"
 
-crossScalaVersions := Seq("2.10.6", "2.11.8")
+crossScalaVersions := Seq("2.10.6", "2.11.8", "2.12.0-M3")
 
 developers := List(
   Developer(
