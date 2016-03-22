@@ -47,6 +47,10 @@ scmInfo := Some(ScmInfo(
 licenses += "Apache" -> url("http://www.apache.org/licenses/LICENSE-2.0")
 
 releaseProcess := {
+  releaseProcess.value.patch(releaseProcess.value.indexOf(publishArtifacts), Seq[ReleaseStep](releaseStepTask(publish in Haxe)), 0)
+}
+
+releaseProcess := {
   releaseProcess.value.patch(releaseProcess.value.indexOf(pushChanges), Seq[ReleaseStep](releaseStepCommand("sonatypeRelease")), 0)
 }
 

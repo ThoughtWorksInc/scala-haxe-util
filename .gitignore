@@ -128,3 +128,7 @@ crashlytics.properties
 crashlytics-build.properties
 
 # Created by .ignore support plugin (hsz.mobi)
+
+# Files created for deployment
+secret/
+local.sbt
