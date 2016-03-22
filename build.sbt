@@ -16,6 +16,8 @@ organization := "com.thoughtworks.microbuilder"
 
 name := "scala-haxe-util"
 
+haxelibReleaseNote := "Initial commit"
+
 crossScalaVersions := Seq("2.10.6", "2.11.8")
 
 developers := List(
